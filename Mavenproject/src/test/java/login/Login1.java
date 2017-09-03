@@ -12,14 +12,15 @@ import org.testng.annotations.Test;
 public class Login1 {
 	
 	WebDriver driver;
+	//This is for second commit validation
+	
 	@BeforeTest
 	public void beforetest(){
 		driver=new FirefoxDriver();
 		driver.get("http://demoqa.com/");
 		driver.manage().window().maximize();
 		
-		
-		
+				
 	}
 	
 	@Test
