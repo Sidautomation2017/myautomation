@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68213" started-at="2017-09-03T08:06:41Z" finished-at="2017-09-03T08:07:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68213" started-at="2017-09-03T08:06:41Z" finished-at="2017-09-03T08:07:49Z">
+      <class name="login.Login1">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:login.Login1@51565ec2]" name="beforetest" is-config="true" duration-ms="62576" started-at="2017-09-03T13:36:41Z" finished-at="2017-09-03T13:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="formsubmission()[pri:0, instance:login.Login1@51565ec2]" name="formsubmission" duration-ms="2323" started-at="2017-09-03T13:37:43Z" finished-at="2017-09-03T13:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formsubmission -->
+        <test-method status="PASS" signature="clear_up()[pri:0, instance:login.Login1@51565ec2]" name="clear_up" is-config="true" duration-ms="3280" started-at="2017-09-03T13:37:46Z" finished-at="2017-09-03T13:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear_up -->
+      </class> <!-- login.Login1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
