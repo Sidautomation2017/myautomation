@@ -25,7 +25,7 @@ public class Login1 {
 	
 	@Test
 	public void formsubmission() throws InterruptedException{
-		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\Rajeshwar\\Desktop\\Selenium Automation testing\\Selenium SetUp\\Browser exe\\chromedriver_win32\\chromedriver.exe");
+
 		WebElement link=driver.findElement(By.xpath("//*[@id='menu-item-374']/a"));
 		link.click();
 		Thread.sleep(2000);
